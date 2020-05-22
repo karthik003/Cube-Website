@@ -1,2 +1,1 @@
-# qrit
-QRIT application repository
+# Cube Website
