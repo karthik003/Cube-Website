@@ -20,11 +20,15 @@ class App extends Component{
 render() {
     const { loading } = this.state;
     
-    if(loading) { // if your component doesn't have to wait for an async action, remove this block 
-      return loader; // render null when app is not ready
+    if(!loading) { // if your component doesn't have to wait for an async action, remove this block 
+      return(
+        <div class="loaderpage">    
+             <img src={loader} alt="loading..." />
+        </div>
+      ); // render null when app is not ready
     }
     return (
-            <div>
+            <div >
             <Navbar />
             <Landingpage />
             </div>
