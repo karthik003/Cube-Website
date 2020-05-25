@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Card } from 'antd';
-
+import './Domains.css';
 const { Meta } = Card;
  class Domains extends Component {
     render() {
@@ -13,22 +13,22 @@ const { Meta } = Card;
                     <div class="row" style={{margin:"0 5% 0 5%",justifyContent:"center"}} >
                         <div class="col-3" style={{minWidth:"300px",textAlign:"center",display:"inline-block",width:"100%"}}>    
                             <Card hoverable cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" height="250px" />}>
-                                <Meta title="Speedcubers" description="" />
+                                <Meta title="SPEEDCUBERS" description="" />
                             </Card>
                         </div>
                         <div class="col-3" style={{minWidth:"300px",textAlign:"center",display:"inline-block",width:"100%"}}>    
                             <Card hoverable cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" height="250px" />}>
-                                <Meta title="Enthusiasts" description="" />
+                                <Meta title="ENTHUSIASTS" description="" />
                             </Card>
                         </div>
                         <div class="col-3" style={{minWidth:"300px"}}>    
                             <Card hoverable cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" height="250px" />}>
-                                <Meta title="Management" description="" />
+                                <Meta title="MANAGEMENT" description="" />
                             </Card>
                         </div>
                         <div class="col-3" style={{minWidth:"300px"}}>    
                             <Card hoverable cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"  height="250px"/>}>
-                                <Meta title="Design" description="" />
+                                <Meta title="DESIGN" description="" />
                             </Card>
                         </div>
                     </div>

@@ -10,7 +10,7 @@ import Footer from './Footer.js';
 import ReactTypingEffect from 'react-typing-effect';
 import Domains from './Domains.js';
 import Events from './Events.js';
-
+import Contact from './Contact.js';
 const { Meta } = Card;
 
 class Landingpage extends Component {
@@ -36,20 +36,21 @@ class Landingpage extends Component {
             <div>
                     <div class="pageone" style={{width:"100%"}}>
                             <div style={{height:"550px"}}>  
-                                <div style={{width:"100%",height:"50%",textAlign:"center",fontSize:"100px",marginTop:"50px",color:"white",fontFamily:"Titillium Web"}}>
+                                <div style={{width:"100%",textAlign:"center",fontSize:"100px",marginTop:"50px",color:"white",fontFamily:"Titillium Web"}}>
                                 <br /> C.U.B.E
                                 </div><br />
                                 <div style={{width:"100%",height:"50%",textAlign:"center",fontSize:"250%",color:"white",marginTop:"50px"}}>
                                 <ReactTypingEffect speed={100} eraseDelay={2000} typingDelay={500} text={[ "Life is like a Rubik's Cube.", "There is always a solution." ]} /> 
                                 </div>
                             </div>
-                        <div style={{position:"absolute",top:"80%",left:"50%"}}>
+                        <div style={{position:"absolute",top:"90%",left:"50%"}}>
                        <FontAwesomeIcon type="button" icon={faAngleDown} size="3x" onClick={this.handleOnClick} color="white"></FontAwesomeIcon>
                         </div>
                         
                     </div>
                <Domains />
                <Events />
+               <Contact />
                <div class="footer" ref={this.myDivToFocus} style={{backgroundColor:"black"}}>
                     <Footer />
                </div>
