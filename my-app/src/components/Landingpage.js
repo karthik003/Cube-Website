@@ -33,11 +33,11 @@ class Landingpage extends Component {
     }
     render() {
         return (
-            <div>
+            <>
                     <div class="pageone" style={{width:"100%"}}>
                             <div style={{height:"550px"}}>  
-                                <div style={{width:"100%",textAlign:"center",fontSize:"100px",marginTop:"50px",color:"white",fontFamily:"Titillium Web"}}>
-                                <br /> C.U.B.E
+                                <div style={{width:"100%",textAlign:"center",fontSize:"75px",marginTop:"50px",color:"white",fontFamily:" 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"}}>
+                                <br /> C.U.B.E VIT
                                 </div><br />
                                 <div style={{width:"100%",height:"50%",textAlign:"center",fontSize:"250%",color:"white",marginTop:"50px"}}>
                                 <ReactTypingEffect speed={100} eraseDelay={2000} typingDelay={500} text={[ "Life is like a Rubik's Cube.", "There is always a solution." ]} /> 
@@ -51,11 +51,11 @@ class Landingpage extends Component {
                <Domains />
                <Events />
                <Contact />
-               <div class="footer" ref={this.myDivToFocus} style={{backgroundColor:"black"}}>
-                    <Footer />
+               <div class="footer"  style={{backgroundColor:"black"}} ref={this.myDivToFocus}>
+                    <Footer  />
                </div>
 
-            </div>
+            </>
            
         )
     }

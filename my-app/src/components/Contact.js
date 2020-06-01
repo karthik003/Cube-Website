@@ -6,12 +6,12 @@ class Contact extends Component {
         return (
             <>
                   <br /><br /><br />
-                <div class=" " style={{marginRight:"30%",marginLeft:"30%",backgroundColor:"white",borderRadius:"20px",minWidth:"530px"}}> 
-                <br />
+                  <div className=""style={{backgroundColor:"black"}}>
 
-                    <Form style={{marginRight:"25%",marginLeft:"25%"}}>
-                        <div style={{fontSize:"30px",fontFamily:"Roboto, sans-serif",fontWeight:"700",textAlign:"center"}}>
-                            CONTACT
+                <div >
+                <Form style={{marginRight:"15%",marginLeft:"15%"}}>
+                        <div style={{color:"white",fontSize:"250%",fontFamily:"Roboto, sans-serif",fontWeight:"700",textAlign:"left"}}>
+                           Drop us a line
                         </div><br />
                             <Form.Group controlId="formName">
                                 <Form.Label>Name</Form.Label>
@@ -45,9 +45,10 @@ class Contact extends Component {
                             </div>
                                 
                             </Form>
-                            <br />
-
-                        </div>
+                </div>
+                
+                
+            </div>
 
             </>
         )

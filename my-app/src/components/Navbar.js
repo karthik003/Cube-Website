@@ -4,18 +4,18 @@ import cube from '../assets/cube.png'
 class Navibar extends Component {
     render() {
         return (
-            <div>
-                <Navbar collapseOnSelect bg="dark" expand="lg" fixed="top">
-                <img src={cube} href="#home" className="mr-5" alt="cube" style={{width:"100px",height:"40px",marginBottom:"10px",color:"white"}}/>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-                    <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
-                        <Nav >
-                            <Nav.Link className="mr-4 " href="#home" style={{fontFamily:"Roboto, sans-serif",color:"#F4F4F4",fontSize:"18px"}}>HOME</Nav.Link>
-                            <Nav.Link className="mr-4 " href="#link" style={{fontFamily:"Roboto, sans-serif",color:"#F4F4F4",fontSize:"18px"}}>EVENTS</Nav.Link>
-                            <Nav.Link className="mr-4 " href="#link" style={{fontFamily:"Roboto, sans-serif ",color:"#F4F4F4",fontSize:"18px"}}>GALLERY</Nav.Link>
-                            <Nav.Link className="mr-4 " href="#link" style={{fontFamily:"Roboto, sans-serif ",color:"#F4F4F4",fontSize:"18px"}}>TEAM</Nav.Link>
-                            <Nav.Link className="mr-4 " href="#link" style={{fontFamily:"Roboto, sans-serif ",color:"#F4F4F4",fontSize:"18px"}}>CONTACT</Nav.Link>
-                        </Nav>
+             <div>  
+            <Navbar collapseOnSelect expand="lg" style={{backgroundColor:"white"}} fixed="top"> 
+                <Navbar.Brand href="#home" style={{height:"100%"}}>
+                    <img  src={cube} style={{width:"50px",height:"20px"}}/> 
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav"style={{justifyContent:"center"}}>
+                            <Nav.Link className="mr-1  " href="#home" style={{fontFamily:"Roboto, sans-serif",color:"black",fontSize:"18px",fontWeight:"700"}}>HOME</Nav.Link>
+                            <Nav.Link className="mr-1 " href="#link" style={{fontFamily:"Roboto, sans-serif",color:"black",fontSize:"18px",fontWeight:"700"}}>ABOUT</Nav.Link>
+                            <Nav.Link className="mr-1 " href="#link" style={{fontFamily:"Roboto, sans-serif ",color:"black",fontSize:"18px",fontWeight:"700"}}>TEAMS</Nav.Link>
+                            <Nav.Link className="mr-1 " href="#link" style={{fontFamily:"Roboto, sans-serif ",color:"black",fontSize:"18px",fontWeight:"700"}}>CONQUESTS</Nav.Link>
+                            <Nav.Link className="mr-1 " href="#link" style={{fontFamily:"Roboto, sans-serif ",color:"black",fontSize:"18px",fontWeight:"700"}}>CONTACT</Nav.Link>
                     </Navbar.Collapse>
                 </Navbar>
             </div>
